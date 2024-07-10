@@ -1,27 +1,3 @@
-// import React from 'react';
-// import { useNavigate } from 'react-router-dom';
-
-// const LandingPage = () => {
-//   const navigate = useNavigate();
-
-//   return (
-//     <div className="landing-page">
-//       <h1>Welcome to Horse Ride Booking</h1>
-//       <div className="horses">
-//         {['Horse 1', 'Horse 2', 'Horse 3', 'Horse 4'].map((horse, index) => (
-//            <div key={index} className="horse">
-//              <img src={`path/to/horse${index + 1}.jpg`} alt={horse} />
-//              <p>{horse}</p>
-//            </div>
-//         ))}
-//       </div>
-//       <button onClick={() => navigate('/booking')}>Book Now</button>
-//     </div>
-//   );
-// };
-
-// export default LandingPage;
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import horse1Img from '../images/horse1.jpg';
